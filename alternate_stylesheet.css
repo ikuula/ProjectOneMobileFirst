@@ -1,0 +1,194 @@
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 2.5em;
+    padding: 10px 15px;
+    float: left;
+}
+
+ul {    
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.3em;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+    position: fixed;
+    top: 10px;
+    right: 6%;
+    display:inline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.main-nav li {
+	text-align: center;
+	background: goldenrod;
+	margin-top: 6px;
+	margin-bottom: 6px;
+    display:block;
+    
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: whitesmoke;
+    padding: 10px 15px;
+    display:inline-block;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.name a {
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Open Sans";
+    line-height: 1.6;
+    font-size: 1em;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+img {
+    margin: auto;
+  width: 400px;
+}
+
+h1 {
+  
+  color: darkslategrey;
+  font-size: 2em;
+    font-family: 'Josefin Slab', serif;
+    line-height: .9;
+  }
+
+p {
+  color: #414D41;
+  font-size: 1em;
+}
+
+ol {
+  color: goldenrod;
+  font-size: 24px;
+  font-weight: bold;
+  width: 400px;
+
+}
+
+dd {
+    font-size: 16px;
+    font-weight: normal;
+    color: #414D41;
+    margin: auto;
+    width: 400px; 
+}
+
+img.IsaacImage {
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+    width: 400px;
+    float:left;
+}
+
+.clear {
+    clear:both;
+}
+
+
+
+
+/* ---- Layout Containers ---- */
+
+.container {
+   padding-left: 1em;
+    padding-right: 1em; 
+}
+
+header.main-header {
+background: gainsboro;
+    text-align: center;
+    position: fixed;
+    top:-1px;
+    left:-2px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    width:105%;
+
+}
+
+.main-footer {
+	padding: .5em 0;
+    position: fixed;
+    bottom:0;
+    left: -2px;
+    width:102%;
+	background: gainsboro;
+    font-family: 'Josefin Slab', serif;
+    text-align:center;
+
+   
+    
+/* ================================= 
+  media queries
+==================================== */
+
+@media only screen and (min-width:769px) {
+
+    .main-header {
+        position: fixed;
+        
+        box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    }
+    
+	.wrap {
+		min-height: calc(100vh - 89px);
+	}
+
+	.container {
+		width: 80%;
+		max-width: 1150px;
+        margin: 0 auto;
+    }
+	
+   .col {    
+		display: inline-block;
+		width: 90%; 
+		margin-right: -4px;
+		vertical-align: top;
+		padding-left: 1em;
+		padding-right: 1em;
+    }
+    
+   
+    img.breakfast {
+        float:left;
+    }  
+
+    
+}
