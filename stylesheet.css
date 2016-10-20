@@ -141,6 +141,7 @@ img {
   
 .head-content,
 .container {
+	padding-top: 10em;
     	width: 90%;
 	max-width: 1150px;
     	margin: 0 auto;
