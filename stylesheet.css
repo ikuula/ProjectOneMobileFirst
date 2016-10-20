@@ -88,26 +88,26 @@ dd {
 
 .name a,
 .main-nav a {
-  padding: 1px 20px;
-  display: block;
+  	padding: 1px 20px;
+  	display: block;
 }
 
 img {
-    margin: auto;
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    	 margin: auto;
+    	 width: 90%;
+   	 display: block;
+   	 margin-left: auto;
+   	 margin-right: auto;
+   	 margin-bottom: 1em;
+   	 margin-top: 1em;
 }
 
 /* ---- Layout Containers ---- */
 
 .container {
-  padding-top:10em;
-  padding-left: 1em;
-  padding-right: 1em;
+  	padding-top: 20em;
+  	padding-left: 1em;
+  	padding-right: 1em;
   
 }
 
@@ -119,32 +119,32 @@ img {
 
 .main-footer {
 	padding: 1px 0;
-    position: fixed;
-    bottom:0;
-    left: -2px;
-    width:102%;
+    	position: fixed;
+    	bottom:0;
+    	left: -2px;
+    	width:102%;
 	background: gainsboro;
-  box-shadow: 0 -1px 30px rgba(0,0,0,.3);
-  text-align: center;
+  	box-shadow: 0 -1px 30px rgba(0,0,0,.3);
+  	text-align: center;
 }
 
 /* ---- Media Queries ---- */
 
 @media (min-width: 769px) {
   
-  .main-header {
-    
-  }
- .wrap {
-		min-height: calc(100vh - 89px);
-	}
+.main-header {
+}
+
+.wrap {
+	min-height: calc(100vh - 89px);
+}
   
-  .head-content,
-  .container {
-    width: 90%;
-		max-width: 1150px;
-    margin: 0 auto;
-  }
+.head-content,
+.container {
+    	width: 90%;
+	max-width: 1150px;
+    	margin: 0 auto;
+}
   
   .name,
   .main-nav,
