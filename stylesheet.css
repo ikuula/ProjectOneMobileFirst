@@ -66,6 +66,10 @@ body {
     font-size: 1em;   
 }
 
+p:first-of-type:first-line {
+	font-size: 2em;
+}
+
 h1 {
   color: darkslategray;
   font-size: 2em;
