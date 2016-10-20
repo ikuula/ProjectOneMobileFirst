@@ -141,6 +141,10 @@ img {
 	min-height: calc(100vh - 89px);
 }
   
+.container {
+	padding: 10em;
+}	
+	
 .head-content,
 .container {
     	width: 90%;
