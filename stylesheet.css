@@ -105,7 +105,6 @@ img {
 /* ---- Layout Containers ---- */
 
 .container {
-  	padding-top: 20em;
   	padding-left: 1em;
   	padding-right: 1em;
   
@@ -130,18 +129,21 @@ img {
 
 /* ---- Media Queries ---- */
 
-@media (min-width: 769px) {
-  
-.main-header {
+@media (max-width: 768px) {
+	.container {
+	padding-top: 20em;
+	}
 }
 
+@media (min-width: 769px) {
+  
 .wrap {
 	min-height: calc(100vh - 89px);
 }
   
 .head-content,
 .container {
-	padding-top: 10em;
+	padding-top: 1em;
     	width: 90%;
 	max-width: 1150px;
     	margin: 0 auto;
