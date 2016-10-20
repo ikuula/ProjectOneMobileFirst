@@ -67,7 +67,7 @@ body {
 }
 
 p:first-of-type:first-line {
-	font-size: 2em;
+	font-size: 1.25em;
 }
 
 h1 {
@@ -85,10 +85,11 @@ ol {
 }
 
 dd {
-    font-size: 16px;
-    font-weight: normal;
-    color: darkslategray;
-    margin: auto;
+    	font-size: 16px;
+    	line-height: 1.8;
+    	font-weight: normal;
+   	color: darkslategray;
+   	margin: auto;
 }
 
 .name a,
