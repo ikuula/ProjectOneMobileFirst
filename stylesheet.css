@@ -27,9 +27,9 @@ background: gainsboro;
   margin-right: 1em;
   background: goldenrod;
   border-radius: 12px;
-  font-size: 1.5em;
-  font-family: open sans;
-  font-weight: bold;
+  font-size: 1em;
+  font-family: futura;
+  font-weight: light;
 }
 
 .main-nav a {
@@ -60,20 +60,17 @@ a:link {
 
 body {
     background-color: whitesmoke;
-    font-family: "Open Sans";
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
     color: black;
     line-height: 1.8;
     font-size: 1em;   
 }
 
-p:first-of-type:first-line {
-	font-size: 1.25em;
-}
-
 h1 {
   color: darkslategray;
   font-size: 2em;
-  font-family: ;
+  font-family: 'Josefin Slab', serif;
   line-height: .9;
 }
 
@@ -85,35 +82,35 @@ ol {
 }
 
 dd {
-    	font-size: 16px;
-    	line-height: 1.8;
-    	font-weight: normal;
-   	color: darkslategray;
-   	margin: auto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.8;
+    color: black;
+    margin: auto;
 }
 
 .name a,
 .main-nav a {
-  	padding: 1px 20px;
-  	display: block;
+  padding: 1px 20px;
+  display: block;
 }
 
 img {
-    	 margin: auto;
-	 border-radius: 12px;
-    	 width: 100%;
-   	 display: block;
-   	 margin-left: auto;
-   	 margin-right: auto;
-   	 margin-bottom: 1em;
-   	 margin-top: 1em;
+    margin: auto;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 /* ---- Layout Containers ---- */
 
 .container {
-  	padding-left: 1em;
-  	padding-right: 1em;
+  padding-top:15em;
+  padding-left: 1em;
+  padding-right: 1em;
   
 }
 
@@ -125,39 +122,39 @@ img {
 
 .main-footer {
 	padding: 1px 0;
-    	position: fixed;
-    	bottom:0;
-    	left: -2px;
-    	width:102%;
+    position: fixed;
+    bottom:0;
+    left: -2px;
+    width:102%;
 	background: gainsboro;
-  	box-shadow: 0 -1px 30px rgba(0,0,0,.3);
-  	text-align: center;
+  box-shadow: 0 -1px 30px rgba(0,0,0,.3);
+  text-align: center;
 }
 
 /* ---- Media Queries ---- */
 
-@media (max-width: 768px) {
-	.container {
-	padding-top: 20em;
+@media (min-width: 678px) {
+  
+  .main-header {
+	padding-top: .25em;
+	padding-bottom: .25em;
+	margin-bottom: 30px;
+    }
+    
+ .wrap {
+		min-height: calc(100vh - 89px);
 	}
-}
-
-@media (min-width: 769px) {
   
-.wrap {
-	min-height: calc(100vh - 89px);
-}
-  
-.container {
-	padding: 10em;
-}	
-	
-.head-content,
-.container {
-    	width: 90%;
-	max-width: 1150px;
-    	margin: 0 auto;
-}
+    .container {
+        padding-top:6em;
+    }
+    
+  .head-content,
+  .container {
+    width: 90%;
+		max-width: 1150px;
+    margin: 0 auto;
+  }
   
   .name,
   .main-nav,
@@ -182,7 +179,7 @@ img {
   
   .container {
     width: 80%;
-    
+    max-width: 1150px;
   }
   
   .primary {
