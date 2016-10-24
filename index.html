@@ -2,7 +2,7 @@
     <html>
     <head>
         <title> Isaac Freakin Kuula </title>
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="kuula_stylesheet.css">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300i|Roboto:300" rel="stylesheet">
         
     </head>
@@ -25,10 +25,10 @@
     <div class="content-row">
       <div class="primary col" id="me">
           
-          <img class="IsaacImage" src="Assets/isaacFreshAndClean.jpeg" /> 
+          <img class="IsaacImage" src="ikuula.github.io/Assets/isaacFreshAndClean.jpeg" /> 
           
               <h1>that's me!</h1>        
-       <p> I'm 26 years old, married for two years, and a VCD major here at EWU. I'll be graduating in the spring and am pumped to see where I end up next. Currently I'm working at Dutch Bros Coffee in downtown Spokane, and am a manager/trainer. I've made coffee for a really long time, but life is still good.</p>      
+       <p class="intro"> The one and only. I'm 26 years old, married for two years, and a VCD major here at EWU. I'll be graduating in the spring and am pumped to see where I end up next. Currently I'm working at Dutch Bros Coffee in downtown Spokane, and am a manager/trainer. I've made coffee for a really long time, but life is still good.</p>      
       <p>I went back to school because I realized that if I'm not being creative in some sort of way then I get pretty burnt out on life. I'm not sure where design is going to take me, but I'm eager to try new things and find my niche. Currently my favorite creative outlets outside of design are customizing and fixing up old motorcyles, working on our house, and playing music at church. As long as I'm making/creating something I'm usually pretty stoked on it.</p>
    <p>As far as goals and aspirations go, I'm pretty open. Right now I'd really just like to get my foot in the door somewhere. I know paying your dues and pushing pixels is something that alot of designers start out with, and I'm ok with that at first. experience is valuable, even when it's not the most exciting thing. Long term, however, I would love to be working in a creative firm or possible a magazine of some sort doing creative and art direction. Basically I'm just hoping my path falls more on the fun, creative, and imaginative side of design.     
         </p>
@@ -37,7 +37,7 @@
   <div class="secondary col" id="book">
     
         <a href="https://www.amazon.com/Hobbit-J-R-R-Tolkien/dp/0618968636">
-        <img   src="Assets/TheHobbit_FirstEdition.jpg"  /></a>
+        <img   src="ikuula.github.io/Assets/TheHobbit_FirstEdition.jpg"  /></a>
           
           <h1 class="clear"> favorite book </h1>
         <p>
@@ -48,7 +48,7 @@
       <div class="tertiary col" id="eats">
         <h1> favorite eats </h1>
      
-          <img class="breakfast"  src="Assets/Breakfast.jpg"/>
+          <img class="breakfast"  src="ikuula.github.io/Assets/Breakfast.jpg"/>
       <ol>
         
         
@@ -59,12 +59,12 @@
           Hashbrowns, also crispy. <br>
           Hotsauce. Everywhere.
         </dd>
-        <img class="breakfast" src="Assets/sweet-potato-fries.jpg"/>
+        <img class="breakfast" src="ikuula.github.io/Assets/sweet-potato-fries.jpg"/>
         
         <li>sweet potato fries</li>
         <dd>Crispy, hot, served with homemade ranch dressing or gorgonzola cheese. Holy frick.</dd>
          
-        <img class="breakfast"  src="Assets/Reuben.jpg"/>
+        <img class="breakfast"  src="ikuula.github.io/Assets/Reuben.jpg"/>
         
         <li>reuben sandwiches</li>
         <dd>Toasted rye bread, dripping melted swiss, sauerkraut, 1000 island dressing (not a deal breaker), and loads of hot corned beef.</dd>
@@ -110,8 +110,79 @@
     </tbody>
     </table>
         -->
-     </div><!--/.container-->
+    
+<form action="index.html" method="post">
+      
+       <h1>sign up</h1>
+       
+       <fieldset>
+       <legend><span class="number">1</span>your basic info</legend>
+         
+      <label for="name">name:</label>
+       <input type="text" id="name" name="user_name">
+      
+       <label for="email">email:</label>
+      <input type="email" id="email" name="user_email">
+     
+      <label for="password">password</label>
+      <input type="password" id="password" name="user_password">
+  
+         <label>age:</label>
+         <input type="radio" id="young" value="young" name="user_age">
+         <label for="young" class="light">young</label><br>
+         <input type="radio" id="old" value="old" name="user_age">
+         <label for="old" class="light">old</label>
+       
+       </fieldset>
+       
+       <fieldset>
+         
+         <legend><span class="number">2</span>your profile</legend>
+         
+       <label for="bio">bio:</label>  
+       <textarea id="bio" name="user_bio">
+       </textarea>  
+           
+         <label for="job">job role:</label>
+         <select id="job" name="user_job"> 
+         <optgroup label="cool job">
+           <option value="frontend_developer">Front-End Developer</option>
+         <option value="php_developer">PHP Developer</option>
+         <option value="python_developer">PYTHON Developer</option>
+           </optgroup>
+           <optgroup label="not a cool job">
+           <option value="Rails_developer">Rails Developer</option>
+         <option value="IOS_developer">IOS Developer</option>
+        </optgroup>
+           </select>
+         
+         <label>interests:</label>
+         <input type="checkbox" id="developement" value="interest_developement" name="user_interest"><label class="light" for="developement">Developement</label><br>
+           
+           <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
+           
+           <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label><br>
+           
+                </fieldset>
+
+         
+      <button type="submit">get down with it</button>
+        
+     </form>     
+          
+      
+      </div><!--/.container-->
   </div><!--/.wrap--> 
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
   
   <footer class="main-footer">
 		<span>isaac freakin' kuula</span>
