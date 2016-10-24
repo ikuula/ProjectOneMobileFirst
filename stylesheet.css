@@ -86,14 +86,19 @@ ol {
   font-size: 24px;
   font-weight: bold;
   line-height: .9;
+    background: white;
+    border-radius: 12px;
+    padding: 1em;
 }
 
 dd {
     font-size: 16px;
     font-weight: normal;
     line-height: 1.8;
+    
     color: black;
     margin: auto;
+    
 }
 
 img {
@@ -120,15 +125,15 @@ img {
     
 form {
   max-width: 100%;
-  margin: 10px 1em;
   padding: 10px 20px;
-  background: ;
-  border-radius: 8px;
+  background: white;
+  border-radius: 12px;
 }
 
 h1 {
   margin: 0 0 30px 0;
   text-align: center;
+  padding-top: 1em;    
 }
 
 input[type="text"],
@@ -319,15 +324,15 @@ tfoot td {
     display: -webkit-flex;
     display: flex;
     height: 100%;
-    vertical-align: top;
+    vertical-align: middle;
 }
 .main-nav li {
     -webkit-align-self: center;
     align-self: center;
     -webkit-flex-grow: 1;
     flex-grow: 1;
-    margin-left: 8px;
-    margin-right: 8px;
+   /* margin-left: 8px;
+    margin-right: 8px; */
     transition: .3s;
 }
 .main-nav li:hover:not(.name) {
@@ -335,35 +340,88 @@ tfoot td {
     flex-grow: 2;
 }
 .name {
-        text-align: left;		
+    display: inline-block;
+    text-align: left;
+    float: left;
+    position: relative;
+    vertical-align: middle;
 }  
     
 /* column Layout
 ================================ */      
+.next {
+    position: ;
+    display: inline-block;
+    background:;
+    margin-right: -4px;
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
     
+    }
+    
+.forth-sub,    
 .col { 
     display: inline-block;
     width: 50%; 
     margin-right: -4px;
     vertical-align: top;
     padding-left: 1em;
-    padding-right: 1em;
-}    
+    padding-right: 1em;    
+} 
+p {
+    padding: 1em;
+    background: white;
+    border-radius: 12px;
+}
 }
 
 @media (min-width: 1025px) {
-    
+ 
+.next,    
 .head-content,
 .container {
     width: 90%;
     max-width: 1150px;
+    padding-bottom: 5em;
 }  
 .primary {
     width: 40%;
-}
+}    
 .secondary,
-.tertiary {
-    width: 30%;
+.tertiary
+ { 
+    width:30%;
+}
+.next {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 10em;
+    }    
+.form {
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+    float: right;
+    
+}
+.fourth {
+    width: 40%;
+    float:left;
+    margin-right: -4px;
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.fourth-sub {
+    width: 100%;
+    float:left;
+    margin-right: -4px;
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
+}
 }
   
   /* ---- Float clearfix ---- */
