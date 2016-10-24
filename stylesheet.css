@@ -108,11 +108,11 @@ img {
 }
 
 .IsaacImage {
-    
+    transition: .5s;
 }
 .IsaacImage:hover {
     border-radius: 50%; 
-    transition: .3s;
+    
     
 }
 
