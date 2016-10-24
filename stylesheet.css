@@ -94,6 +94,7 @@ img {
 
 /* ---- Table ---- */
 
+/*
 table {
   max-width: 960px;
   margin: ;
@@ -136,7 +137,7 @@ tfoot td {
   font-size: 0.8em;
   font-style: italic;
   color: #8a97a0;
-}
+} */
 
 /* ---- Layout Containers ---- */
 
@@ -204,7 +205,8 @@ tfoot td {
     transition: .3s;
 }
 .main-nav li:hover:not(.name) {
-        flex-grow: 2;
+    -webkit-flex-grow: 2;
+    flex-grow: 2;
 }
 .name {
         text-align: left;		
