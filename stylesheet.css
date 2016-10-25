@@ -289,11 +289,12 @@ tfoot td {
     box-shadow: 0 -1px 30px rgba(0,0,0,.3);
     text-align: center;
 }
-
+/*  command + / = comment */
 
 /* ---- Media Queries ---- */
 
-@media (min-width: 678px) {
+@media (min-width: 678px),
+	only screen and (min-width: 700px) and (orientation: landscape){
     
 .wrap {
     min-height: calc(100vh - 89px);
